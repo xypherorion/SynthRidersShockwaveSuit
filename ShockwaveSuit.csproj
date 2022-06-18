@@ -45,9 +45,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>X:\Games\steamapps\common\SynthRiders\SynthRiders_Data\Managed\PhotonUnityNetworking.dll</HintPath>
     </Reference>
-    <Reference Include="ShockwaveInterop, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>X:\Games\steamapps\common\SynthRiders\UserLibs\ShockwaveInterop.dll</HintPath>
+    <Reference Include="ShockwaveSharedInterop">
+      <HintPath>UserLibs\ShockwaveSharedInterop.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

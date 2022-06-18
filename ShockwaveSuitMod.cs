@@ -128,7 +128,7 @@ namespace ShockwaveSuit {
             }
         }
 
-        static Color pulseColor = new Color();
+        //static Color pulseColor = new Color();
         static int[] ledIdx = new int[] { 0 };
         static float[] ledColor = new float[] { 0.0f, 0.0f, 0.0f };
 
@@ -295,7 +295,7 @@ namespace ShockwaveSuit {
         public static async Task WaitForSuit() {
             MelonLogger.Msg($"~~~SHOCKWAVE~~~ Waiting for Suit");
             suit = ShockwaveManager.Instance;
-            suit.InitializeSuit(0); //Wait for the suit forever
+            suit.InitializeSuit(); //Wait for the suit forever
 
             suit.enableBodyTracking = false;
             while (!ShockwaveManager.Instance.Ready && ShockwaveManager.Instance.error == 0) {
